@@ -8,7 +8,7 @@ const fetchRecipes = async (query) => {
     recipeContainer.innerHTML = "<h2>Fetching Recipes...</h2>";
 
     try {
-        const data = await fetch(`http://www.themealdb.com/api/json/v1/1/search.php?s=${query}`);
+        const data = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${query}`);
         const response = await data.json();
 
         recipeContainer.innerHTML = "";
