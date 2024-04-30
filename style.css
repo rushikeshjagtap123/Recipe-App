@@ -187,7 +187,7 @@ body::-webkit-scrollbar-track{
     background: rgb(157, 160, 186);
 
 }
-@media screen and(max-width:600px) {
+@media screen and (max-width:600px) {
     header nav {
         flex-direction: column;
     }
